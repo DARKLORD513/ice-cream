@@ -53,9 +53,7 @@ while lol=="yes":
             
         
 
-            
-           
-            
+               
 
                         
             myresult=mycursor.fetchall()
