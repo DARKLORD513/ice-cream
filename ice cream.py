@@ -14,8 +14,8 @@ print("\nWelcome to  Natural Ice Creams ")
 print("              ~Customized and Provided by  2A- Designers\n")
 print ("*"*70)
 print("")
-lol="yes"
-while lol=="yes":
+main="yes"
+while main=="yes":
 
 #command to choose what action you need to perform
     print('''\n \n What can I help you with?
@@ -182,11 +182,11 @@ while lol=="yes":
         
 #command for action 7 i.e. exit
     elif option==7:
-        lol="no"
+        main="no"
         print("----------THANK YOU----------")
    
         
 
     else:
         print("Invalid option")
-        lol="yes"
+        main="yes"
